@@ -1,0 +1,118 @@
+/* banner上内容 */
+.flex-caption {
+  zoom: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: auto;
+  padding: 10px 25px;
+  text-align: center;
+  color: #fff;
+}
+
+.flex-caption h1 {
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  color: #fff;
+  font-size: 60px;
+  /* text-transform: uppercase; */
+}
+
+.flex-caption p {
+  margin-top: 12px;
+}
+
+.post-card img {
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+/* 活动策划 */
+.features img {
+  width: 100%;
+}
+
+.features .media-heading {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 22px;
+}
+
+.features .media.service-box {
+  margin: 0px 0 25px;
+  padding: 30px 20px;
+  background: #fff;
+  border: 0px;
+  box-shadow: 0px 8px 244px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+}
+
+.media.service-box {
+  margin: 25px 0 36px;
+  padding: 20px 15px 10px;
+  background: #FFFFFF;
+  overflow: hidden;
+  border-bottom: 2px solid #E0E0E0;
+}
+
+
+.media {
+  margin-top: 15px;
+}
+
+/* 服务范围 */
+.wrap-serve {
+  position: relative;
+}
+
+.wrap-text-box {
+  position: absolute;
+  right: -10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 42%;
+  padding: 20px 30px;
+  background: #fff;
+  box-shadow: 0px 8px 244px 0px rgba(0, 0, 0, 0.08);
+}
+
+.wrap-serve-bg {
+  position: absolute;
+  top: -15%;
+  right: 10%;
+  width: 102%;
+  height: 124%;
+  background: #DAE038;
+}
+
+.wrap-serve-2 {
+  /* padding: 10% 0 5% 12%; */
+}
+
+.wrap-text-box-2 {
+  left: -40%;
+  text-align: right;
+  width: 58%;
+}
+
+/* 介绍页 */
+.about-box:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+  /* Adjusts for spacing */
+}
+
+.about-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.features-text-box {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
